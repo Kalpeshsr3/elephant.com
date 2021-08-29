@@ -9,7 +9,7 @@
 header{
 	
 	min-height:100vh;
-	background-image:url('img/elephant.jpg');
+	background-image:url('elephant.jpg');
 	
 	background-size:cover;
 	background-position:center;
@@ -134,7 +134,7 @@ nav{
 @media only screen and (max-width:699px){
 	header{
 		
-	background-image:url('img/elephant.jpg');
+	background-image:url('elephant.jpg');
 	background-size:cover;
 	background-position:center;
 }
@@ -187,7 +187,7 @@ nav{
 		position:relative;
 		width:30px;
 		height:30px;
-		background:url('img/menu.png');
+		background:url('menu.png');
 		background-position:center;
 		background-size:30px;
 		background-repeat:no-repeat;
@@ -196,7 +196,7 @@ nav{
 	}
 	
 	.togglebtn.active{
-		background:url('img/close.png');
+		background:url('close.png');
 		background-position:center;
 		background-size:24px;
 		background-repeat:no-repeat;

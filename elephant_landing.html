@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <meta charset="UTF-8">
+   <title>Elephant Landing</title>
+   <link rel="stylesheet" href="style_elephant.css">
+  </head>
+  <body>
+  <header>
+   <div class="container">
+   <nav>
+    <a href="#" class="main_logo">E<span class="small_logo">lephant</span></a>
+	<div class="togglebtn" onClick="togglebtn();"></div>
+	<ul class="navigation">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Jungle</a></li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">Contact</a></li>
+	</ul>
+   </nav>
+   <div class="info">
+   <div class="inside_info">
+   <h1>Welcome to<br><span class="head_big">Jungle Safari</span></h1>
+   <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+   </p>
+   <a href="#" class="btn">Know More</a>
+   </div>
+   </div>
+   <ul class="social_icon">
+   <li><a href="#"><img src="img/facebook.png"></a></li>
+   <li><a href="#"><img src="img/twitter.png"></a></li>
+   <li><a href="#"><img src="img/instagram.png"></a></li>
+   </ul>
+   </div>
+  </header>
+  
+  <script type="text/javascript">
+  
+  function togglebtn(){
+  const togglebtn = document.querySelector('.togglebtn');
+  const navigation = document.querySelector('.navigation');
+  togglebtn.classList.toggle('active');
+  navigation.classList.toggle('active');
+  }
+  
+  </script>
+  </body>
+ </html>
